@@ -15,7 +15,7 @@ setwd()
 2. `README.md`, this file provides an overview of the data set and how it was created.
 3. `Instructions.md`, it contains the instructions given on how to make the dataset. [Coursera Project Link](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project)
 4. `CodeBook.md`, the code book describes the contents of the data set (data, variables and transformations used to generate the data).
-5. `tidy_data.txt`, the final tidy dataset.
+5. `tidy2.txt`, the final tidy dataset.
 
 ## Creating the tidy dataset.
 1. The data files `activity_label.txt`, `features.txt`, `X_train.txt`, `y_train.txt`, `subject_train.txt`, `X_test.txt`, `y_test.txt` and `subject_test.txt` were loaded into the RStudio's working environment.
