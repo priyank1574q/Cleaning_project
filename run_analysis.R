@@ -10,7 +10,7 @@ X_train <- read.table("C:/Users/asus1/Documents/UCI HAR Dataset/train/X_train.tx
 y_train <- read.table("C:/Users/asus1/Documents/UCI HAR Dataset/train/y_train.txt")
 subject_train <- read.table("C:/Users/asus1/Documents/UCI HAR Dataset/train/subject_train.txt")
 ##The level numbers in the y_train dataset is given the name of the activity performed which is in the second column of the activity_labels. 
-y_train_new <- factor(y_train, levels = c(1,2,3,4,5,6), labels = activity_labels[,2])
+y_train_new <- factor(y_train[,1], levels = c(1,2,3,4,5,6), labels = activity_labels[,2])
 ##The name of columns of the X_train are assigned the names of features.
 colnames(X_train) <- features
 ##A dataset1 is made which only consists the columns which consisted the data for mean and standard deviation.
@@ -23,7 +23,7 @@ X_test <- read.table("C:/Users/asus1/Documents/UCI HAR Dataset/test/X_test.txt")
 y_test <- read.table("C:/Users/asus1/Documents/UCI HAR Dataset/test/y_test.txt")
 subject_test <- read.table("C:/Users/asus1/Documents/UCI HAR Dataset/test/subject_test.txt")
 ##The level numbers in the y_test dataset is given the name of the activity performed which is in the second column of the activity_labels.
-y_test_new <- factor(y_test, levels = c(1,2,3,4,5,6), labels = activity_labels[,2])
+y_test_new <- factor(y_test[,1], levels = c(1,2,3,4,5,6), labels = activity_labels[,2])
 ##The name of columns of the X_test are assigned the names of features.
 colnames(X_test) <- features
 ##A new dataset2 is made which only consists the columns which consisted the data for mean and standard deviation.
