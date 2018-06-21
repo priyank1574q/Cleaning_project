@@ -22,4 +22,6 @@ setwd()
 2. A new variables `y_train_new` and `y_test_test` is made which has the label assigned instead of its numerical factor, i.e. 1 is assigned `WALKING` etc.
 3. The column names of the table `X_train` and `X_test` were assigned the names which were provided in `features.txt` file.
 4. The required columns of the `X_train` and `X_test` are selected and are assigned to new variable `dataset1` and `dataset2` respectively.
-5. 
+5. A new variable `data1` is made by combining `subject_train`, `y_train_new` and `dataset1` column wise. The same was done with with the test data.
+6. A new variable `tidy1` is made by combining `data1` and `data2` row wise and this final complete dataset.
+7. A new variable `tidy2` is made which contains the average of datas of activity perfomed by each individual.
