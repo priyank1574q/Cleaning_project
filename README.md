@@ -18,3 +18,8 @@ setwd()
 5. `tidy_data.txt`, the final tidy dataset.
 
 ## Creating the tidy dataset.
+1. The data files `activity_label.txt`, `features.txt`, `X_train.txt`, `y_train.txt`, `subject_train.txt`, `X_test.txt`, `y_test.txt` and `subject_test.txt` were loaded into the RStudio's working environment.
+2. A new variables `y_train_new` and `y_test_test` is made which has the label assigned instead of its numerical factor, i.e. 1 is assigned `WALKING` etc.
+3. The column names of the table `X_train` and `X_test` were assigned the names which were provided in `features.txt` file.
+4. The required columns of the `X_train` and `X_test` are selected and are assigned to new variable `dataset1` and `dataset2` respectively.
+5. 
