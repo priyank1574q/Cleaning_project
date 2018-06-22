@@ -26,7 +26,7 @@ setwd()
 6. A new variable `tidy1` is made by combining `data1` and `data2` row wise and this final complete dataset.
 7. A new variable `tidy2` is made which contains the average of datas of activity perfomed by each individual.
 
-##Versions
+## Versions
 1. `RStudio` Version - R version 3.4.4 (2018-03-15), Platform: x86_64-w64-mingw32/x64 (64-bit)
 2. `dplyr` package version - 0.7.5 
 3. `reshape2` package version - 1.4.3
